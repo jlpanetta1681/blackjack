@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="blackjack.css">
+    <script src="blackjack.js"></script>
+  </head>
+  <body>
+    <!-- DEALER'S CARDS -->
+    <div>
+      <span id='dealer-stand' class="ninja">[STAND] </span>
+      Dealer's Hand - <span id='dealer-points'>?</span>
+    </div>
+    <div id="dealer-cards"></div>
+
+    <!-- PLAYER'S CARDS -->
+    <div>
+      <span id='player-stand' class="ninja">[STAND] </span>
+      Your Hand - <span id='player-points'>0</span>
+    </div>
+    <div id="player-cards"></div>
+
+    <!-- PLAY! -->
+    <div id='player-start'>
+      <input type="button" id='play-start' value="Play!"/>
+    </div>
+
+    <!-- HIT OR STAND -->
+    <div id="player-move" class='ninja'>
+      <input type="button" id="play-hit" value="Hit"/>
+      <input type="button" id="play-stand" value="Stand"/>
+    </div>
+  </body>
+</html>

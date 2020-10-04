@@ -1,0 +1,20 @@
+.ninja{ display: none }
+
+/* STAND */
+#dealer-stand, #player-stand {
+  background: #ffdede;
+}
+
+/* CARDS */
+#dealer-cards, #player-cards {
+  max-width: 200px;
+}
+div.card {
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid #aaa;
+  margin-bottom: 10px;
+}
+#dealer-first-b {
+  background: #f2f2f2;
+}
